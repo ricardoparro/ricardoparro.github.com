@@ -34,19 +34,15 @@
         <p>
           {{ site.author.name }}<br />
           {{ site.tagline }}<br />
-          <a href='mailto:{{ site.author.email }}'>{{ site.author.email }}</a>
+          <a href='mailto:{{ site.author.email }}'>{{ site.author.email }}</a></br>
+          <a href='mailto:{{ site.author.emailCat }}'>{{ site.author.emailCat }}</a>
         </p>
       </div>
       <div class="contact">
         <p>
-          <a href="http://github.com/{{ site.author.github }}/">github.com/{{ site.author.github }}</a><br />
+          <a href="http://twitter.com/{{ site.author.twitterCat }}/">twitter.com/{{ site.author.twitterCat }}</a><br />
           <a href="http://twitter.com/{{ site.author.twitter }}/">twitter.com/{{ site.author.twitter }}</a><br />
         </p>
-      </div>
-      <div class="rss">
-        <a href="http://feeds.feedburner.com/{{ site.author.feedburner }}">
-          <img src="{{ ASSET_PATH }}/images/rss.png" alt="Subscribe to RSS Feed" />
-        </a>
       </div>
     </div>
   </div>

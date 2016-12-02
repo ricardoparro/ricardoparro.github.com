@@ -8,13 +8,15 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Ricardo Parro
-tagline: Site Tagline
+title : The Parro Project
+tagline: 
 author :
-  name : Ricardo Parro
-  email : ricardo.parro@gmail.com
-  github : ricardoparro
+  name : The Parro Project
+  email : 
+  emailCat :
+  github : 
   twitter : ricardoparro
+  twitterCat : caterinemanica
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed

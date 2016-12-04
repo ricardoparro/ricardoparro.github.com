@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hello World!
+title: The Parro Project
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
